@@ -1,0 +1,15 @@
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\obj\Debug\net8.0\CSIT313.GeneratedMSBuildEditorConfig.editorconfig
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\obj\Debug\net8.0\CSIT313.AssemblyInfoInputs.cache
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\obj\Debug\net8.0\CSIT313.AssemblyInfo.cs
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\obj\Debug\net8.0\CSIT313.csproj.CoreCompileInputs.cache
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\obj\Debug\net8.0\CSIT313.sourcelink.json
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\bin\Debug\net8.0\CSIT313.exe
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\bin\Debug\net8.0\CSIT313.deps.json
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\bin\Debug\net8.0\CSIT313.runtimeconfig.json
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\bin\Debug\net8.0\CSIT313.dll
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\bin\Debug\net8.0\CSIT313.pdb
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\obj\Debug\net8.0\CSIT313.dll
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\obj\Debug\net8.0\refint\CSIT313.dll
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\obj\Debug\net8.0\CSIT313.pdb
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\obj\Debug\net8.0\CSIT313.genruntimeconfig.cache
+E:\CODES\MSUCODES\CSIT313_FundamentalsOfProgramming\CSIT313\homework_2\obj\Debug\net8.0\ref\CSIT313.dll

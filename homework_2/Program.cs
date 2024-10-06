@@ -1,3 +1,9 @@
+// Matrix Multiplication Program 
+
+// Author:
+// Kyler Grahame
+// Date: 10/06/24
+
 using System;
 
 class MatrixMultiplicationProgram
@@ -6,9 +12,9 @@ class MatrixMultiplicationProgram
     private static int m; // Rows in A
     private static int n; // Columns in A / Rows in B
     private static int p; // Columns in B
-    private static int[,] A; // Matrix A
-    private static int[,] B; // Matrix B
-    private static int[,] C; // Result Matrix C
+    private static int[][] A; // Matrix A
+    private static int[][] B; // Matrix B
+    private static int[][] C; // Result Matrix C
 
     public static void CountLoop()
     {
@@ -36,11 +42,11 @@ class MatrixMultiplicationProgram
             j = 0; // Reset column index for new row
             while (j < p) // Loop through columns of matrix B
             {    
-                C[i, j] = 0; // Initialize 
+                C[i][j] = 0; // Initialize 
                 int k = 0; // initialize inner loop index
                 while (k < n) // Loop through columns of A / rows of B
                 { 
-                    C[i, j] += A[i, k] * B[k, j]; // product
+                    C[i][j] += A[i][k] * B[k][j]; // product
                     k++; // Increment inner loop index
                 }
                 j++; // Increment column index
@@ -60,10 +66,15 @@ class MatrixMultiplicationProgram
         Console.Write("Enter number of columns in matrix B: ");
         p = int.Parse(Console.ReadLine());
 
-        // Initialize Matrices off userInput
-        A = new int[m, n];
-        B = new int[n, p];
-        C = new int[m, p];
+        // Initialize jagged arrays off userInput
+        A = new int[m][];
+        B = new int[n][];
+        C = new int[m][];
+
+        for (int i = 0; i < m; i++) A[i] = new int[n]; // Initialize rows for A
+        for (int i = 0; i < n; i++) B[i] = new int[p]; // Initialize rows for B
+        for (int i = 0; i < m; i++) C[i] = new int[p]; // Initialize rows for C
+
 
         // Input values for matrix A
         Console.WriteLine("Enter elements for matrix A:");
@@ -72,7 +83,7 @@ class MatrixMultiplicationProgram
             for (int j = 0; j < n; j++) // loop for columns of matrix A
             {
                 Console.Write($"A[{i},{j}]: "); 
-                A[i, j] = int.Parse(Console.ReadLine());
+                A[i][j] = int.Parse(Console.ReadLine());
             }
         }
 
@@ -83,7 +94,7 @@ class MatrixMultiplicationProgram
             for (int j = 0; j < p; j++) // loop for columns of matrix B
             {
                 Console.Write($"B[{i},{j}]: ");
-                B[i, j] = int.Parse(Console.ReadLine());
+                B[i][j] = int.Parse(Console.ReadLine());
             }
         }
     }
@@ -96,7 +107,7 @@ class MatrixMultiplicationProgram
         {
             for (int j = 0; j < p; j++)
             {
-                Console.Write(C[i, j] + " ");
+                Console.Write(C[i][j] + " ");
             }
             Console.WriteLine();
         }
@@ -109,11 +120,11 @@ class MatrixMultiplicationProgram
     {
         userInputSetup(); //calls for user to setup rows, columns, and values of matrices A and B
         
-        Console.WriteLine("Counting Loop: \n");
+        Console.WriteLine("\nCounting Loop: \n");
         CountLoop(); //Matrix Multiplication Counting Loop
         PrintMatrixC();
 
-        Console.WriteLine("Logic Loop: \n");
+        Console.WriteLine("\nLogic Loop: \n");
         LogicLoop(); //Matric Multiplication Logic Loop
         PrintMatrixC();
 
