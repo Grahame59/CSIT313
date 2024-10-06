@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/tmp/.nuget/packages/": {}
+    "C:\\Users\\Kyler\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/csit_313/homework_1/hw_name.csproj",
-      "projectName": "hw_name",
-      "projectPath": "/csit_313/homework_1/hw_name.csproj",
-      "packagesPath": "/tmp/.nuget/packages/",
-      "outputPath": "/csit_313/homework_1/obj/",
+      "projectUniqueName": "C:\\csit_313\\homework_1\\homework_1.csproj",
+      "projectName": "homework_1",
+      "projectPath": "C:\\csit_313\\homework_1\\homework_1.csproj",
+      "packagesPath": "C:\\Users\\Kyler\\.nuget\\packages\\",
+      "outputPath": "C:\\csit_313\\homework_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/tmp/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Kyler\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/opt/bitnami/dotnet-sdk/bin/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
