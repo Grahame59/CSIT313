@@ -6,7 +6,6 @@ public class Task2A
     {
         int num = 9;
 
-        // Short-circuit evalution 
         if (num == 10 && isBoolTrue() )
         {
             System.out.println("Both conditions = True");
