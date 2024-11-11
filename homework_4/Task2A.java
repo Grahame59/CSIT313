@@ -4,7 +4,7 @@ public class Task2A
 {
     public static void main(String[] args) 
     {
-        int num = 10;
+        int num = 9;
 
         // Short-circuit evalution 
         if (num == 10 && isBoolTrue() )
